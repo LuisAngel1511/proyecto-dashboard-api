@@ -1,0 +1,7 @@
+ID_Producto,Nombre,Precio,Fecha_Venta,Cliente
+101,Tornillo,10.5,2025-01-05,ClienteA
+102,Tuerca,5.0,2025-01-06,ClienteB
+103,Martillo,,2025-01-07,ClienteC
+104,Sierra,150.0,2025-01-08,
+105,Clavo,1.0,2025-01-09,ClienteA
+103,Martillo,,2025-01-07,ClienteC
