@@ -1,0 +1,9 @@
+{
+  "resumen": { "total_filas": 1000, "total_columnas": 5, "dataset_nombre": "Ventas_Mock.csv" },
+  "valores_nulos_por_columna": {
+    "columnas": ["ID_Producto", "Nombre", "Precio", "Fecha_Venta", "Cliente"],
+    "conteo": [0, 5, 12, 0, 50]
+  },
+  "conteo_duplicados": { "etiquetas": ["Filas Únicas", "Duplicadas"], "conteo": [920, 80] },
+  "distribucion_tipos_datos": { "etiquetas": ["Numérico", "Texto", "Fecha"], "conteo": [2, 2, 1] }
+}

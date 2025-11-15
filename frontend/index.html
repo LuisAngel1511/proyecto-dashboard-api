@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard de Calidad de Datos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Dashboard de Calidad de Datos</h1>
+        <h2 id="nombre-dataset"></h2>
+    </header>
+
+    <main class="dashboard-grid">
+
+        <div class="card">
+            <h3>Valores Nulos por Columna</h3>
+            <canvas id="graficoNulos"></canvas>
+        </div>
+
+        <div class="card">
+            <h3>Proporción de Duplicados</h3>
+            <canvas id="graficoDuplicados"></canvas>
+        </div>
+
+        <div class="card">
+            <h3>Distribución de Tipos de Datos</h3>
+            <canvas id="graficoTiposDatos"></canvas>
+        </div>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
